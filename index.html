@@ -1,0 +1,16 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Concrete Slab Calculator: Yards and Bags (Free)</title><meta name="description" content="Free concrete slab calculator. Enter length, width and thickness to get cubic yards or cubic meters and the number of 40, 60 or 80 lb bags."><link rel="canonical" href="https://frederikfor.github.io/concrete-calculator/"><link rel="alternate" hreflang="es" href="https://frederikfor.github.io/concrete-calculator/es/"><link rel="stylesheet" href="style.css"></head><body>
+<header><a href="">Concrete Calculator</a><nav><a href="bags-of-concrete-calculator.html">Bags</a><a href="how-much-concrete-10x10-slab.html">10x10 slab</a><a href="es/">Español</a></nav></header><main>
+<h1>Concrete Slab Calculator</h1><p class="lead">Enter the slab size to get the concrete volume and how many 40, 60 or 80 lb bags to buy. Works in feet or meters.</p>
+<div class="card"><div class="grid">
+<div><label for="sys">Units</label><select id="sys"><option value="imperial">Imperial (ft, in)</option><option value="metric">Metric (m, mm)</option></select></div>
+<div><label for="L">Length (<span id="uL">ft</span>)</label><input id="L" type="number" min="0" step="any" value="20"></div>
+<div><label for="W">Width (<span id="uW">ft</span>)</label><input id="W" type="number" min="0" step="any" value="12"></div>
+<div><label for="T">Thickness (<span id="uT">in</span>)</label><input id="T" type="number" min="0" step="any" value="4"></div>
+<div><label for="waste">Waste (%)</label><input id="waste" type="number" min="0" step="any" value="10"></div></div>
+<div class="results"><div class="res"><b id="vol">0</b><span id="volu">cubic yards</span></div><div class="res"><b id="b80">0</b><span>80 lb bags</span></div><div class="res"><b id="b60">0</b><span>60 lb bags</span></div><div class="res"><b id="b40">0</b><span>40 lb bags</span></div></div></div>
+<h2>How it works</h2><p>Volume = length × width × thickness, plus a waste allowance. In imperial units the thickness is converted from inches to feet and the result from cubic feet to cubic yards (27 ft³ = 1 yd³). Bags are rounded up, because you can't buy part of a bag.</p>
+<p>A 5–10% waste allowance is normal for slabs; use the high end if the ground is uneven. Worked examples: <a href="how-much-concrete-10x10-slab.html">how much concrete for a 10x10 slab</a> and <a href="bags-of-concrete-calculator.html">how many bags of concrete you need</a>.</p>
+<div class="card"><h2 style="margin-top:0">Pricing a whole job?</h2><p>The full <b>Concrete Takeoff &amp; Quote Calculator</b> for Excel and Google Sheets adds footings, walls, columns and steps (30 lines per job), rebar takeoff with ASTM bar weights, trucks to book with a short-load warning, bags vs ready-mix cost, and a client-ready quote with a margin warning.</p>
+<a class="cta" href="https://frederikforest.gumroad.com/l/pyrapr">Get the full calculator</a><a class="cta alt" href="https://frederikforest.gumroad.com/l/otqaav">Download the free Excel version</a></div>
+</main><footer>For preliminary estimating only. Confirm quantities with your supplier or engineer. Bag yields from Quikrete product data: 40 lb = 0.30 ft³, 60 lb = 0.45 ft³, 80 lb = 0.60 ft³.</footer><script src="calc.js"></script></body></html>
